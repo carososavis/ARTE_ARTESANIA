@@ -1,0 +1,189 @@
+html {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+:root {
+  --blanco: #ffffff;
+  --negro: #000000;
+  --purpura: #434371;
+  --celeste: #3978F8;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #8870a3; 
+  background-color: #d6d6da;
+  font-size: 2em; /* Tamaño más grande para el header */
+  padding: 20px; /* Espacio extra alrededor del header */
+}
+
+header h4 {
+  margin: 0; /* Elimina márgenes adicionales */
+}
+
+h3 {
+  color: #8870a3; /* Violeta claro */
+  font-family: 'Nunito', sans-serif;
+}
+.carousel-item img {
+  object-fit: cover;
+  height: 420px !important;
+}
+
+i {
+  font-size: 2rem;
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--negro);
+}
+
+#facebook:hover {
+  color: blue;
+}
+
+
+#instagram:hover {
+  color: var(--purpura);
+}
+
+
+
+#pinturas img {
+  max-height: 20vh;
+  object-fit: cover;
+}
+
+.modalImageDiv {
+  text-align: center;
+}
+
+@media only screen and (max-width: 400px) {
+  #autorretraro {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #autorretrato {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+  }
+}
+
+@media screen and ( max-width: 320px) {
+  img.modalPintura {
+      width: 240px;
+      align-content: center;
+  }
+}
+
+@media screen and ( min-width:321px) and ( max-width: 411px) {
+  img.modalPintura {
+      width: 310px;
+  }
+}
+
+@media screen and ( min-width:412px) and ( max-width: 767px) {
+  img.modalPintura {
+      width: 360px;
+  }
+}
+
+@media screen and ( min-width:768px) and ( max-width: 995px) {
+  img.modalPintura {
+      width: 460px;
+  }
+}
+
+@media screen and ( min-width: 996px) {
+  img.modalPintura {
+      width: 768px;
+  }
+}
+
+img.modalPintura {
+  margin-top: 20px;
+  height: auto;
+}
+
+
+
+
+/*CSS del formulario contacto*/
+
+#parrafo {
+    text-align: justify;
+}
+
+.btn-enviar {
+    background-color: #ffffff;
+    color: #000000;
+    border-color: #000000;
+}
+
+.btn-enviar:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+
+.custom-control-input:checked~.custom-control-label::before {
+    color: #fff;
+    border-color: #000;
+    background-color: #000;
+}
+
+@media (max-width: 768px) {
+    #contacto .container {
+      padding: 0 1.5em;
+    }
+  
+    #contacto h2 {
+        font-size: 1.5em;
+      }
+      
+      #contacto p.lead {
+        font-size: 0.9em;
+      }
+      
+      #contacto .btn-enviar {
+        font-size: 1rem;
+        padding: 0.5em;
+      }
+  /* Espaciado de los elementos en pantallas más pequeñas */
+  #contacto .form-group {
+    margin-bottom: 1em;
+  }
+}
+
+/* Estilos para pantallas extra pequeñas */
+@media (max-width: 576px) {
+  #contacto h2 {
+    font-size: 1.3em;
+  }
+  
+  #contacto .lead {
+    font-size: 0.85em;
+  }
+  
+  #contacto .form-control,
+  #contacto textarea {
+    font-size: 0.9em;
+  }
+
+  #contacto .btn-enviar {
+    font-size: 0.9rem;
+  }
+}
+    

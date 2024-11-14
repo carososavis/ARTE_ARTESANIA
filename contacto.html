@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Link Icons FontAwesone-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> 
+    <!-- Link Fonts de Google -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">        
+    <title>Inicio-Arte & Artesanías</title>
+    <link href="images/logoAyA.png" rel="icon" type="image/png">
+  </head>
+
+    <body>
+    <header>
+      <h4>Arte y Artesanías by Laura Carolina Sosa</h4>
+    </header>
+
+        <!-- NAVBAR -->
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col pl-0 pr-0">
+              <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="index.html">
+                  <img src="images/logoAyA.png" width="70" height="70" class="d-inline-block align-top img-fluid" alt="logo" loading="lazy">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="colecciones.html">Colecciones</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                  </ul>
+                  <span><nav class="navbar navbar-light bg-light">
+                    <form class="form-inline">
+                      <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+                      <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Buscar</button>
+                    </form>
+                      </button>
+                    </SPAn>
+                    <span> <a href="#" class="carrito"><i class="fas fa-shopping-cart"></i> Carrito</a></span>
+                  </nav>
+                  </span>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+
+        <main>
+
+     <!-- FORM CONTACTO  -->
+     <section id="contacto">
+      <div class="container">
+        <div class="row">
+          <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2 pt-2">
+            <div class="row">
+              <div class="col text-center text-uppercase mb-4">
+                <h3>Contacto</h3>
+              </div>
+            </div>
+    
+            <div class="row">
+              <div class="col-12 text-align justify">
+                <p class="lead" id="parrafo">
+                  Puedes dejarme aquí cualquier consulta o comentario acerca de
+                  mi obra o de los proyectos en los que estoy trabajando, te
+                  responderé tan pronto como sea posible.
+                </p>
+                <p class="lead" id="parrafo">
+                  O completar el formulario para recibir un boletín con las
+                  últimas novedades en el mundo del arte.
+                </p>
+              </div>
+            </div>
+    
+            <form action="https://formspree.io/f/xkgnboyw" method="POST">
+              <!-- 1ª fila con nombre y apellido -->
+              <div class="row">
+                <div class="col-12 col-md-6">
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="nombre"
+                      name="nombre"
+                      placeholder="NOMBRE..."
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="col-12 col-md-6">
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="apellido"
+                      name="apellido"
+                      placeholder="APELLIDO..."
+                      required
+                    />
+                  </div>
+                </div>
+              </div>
+              <!-- 2ª fila con sexo y residencia -->
+              <div class="row">
+                <div class="col-12 col-md-6">
+                  <div class="form-group">
+                    <div class="form-check form-check-inline">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="sexo"
+                        value="femenino"
+                      />
+                      <label class="form-check-label">Femenino</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="sexo"
+                        value="masculino"
+                      />
+                      <label class="form-check-label">Masculino</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="sexo"
+                        value="otro"
+                      />
+                      <label class="form-check-label">Otro</label>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6">
+                  <div class="form-group">
+                    <select class="form-control" id="pais" name="pais" required>
+                      <option selected value="">DÓNDE RESIDES...</option>
+                      <option value="AM">América</option>
+                      <option value="EU">Europa</option>
+                      <option value="OTH">Otro</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+    
+              <!-- 4ª fila email  -->
+              <div class="row">
+                <div class="col">
+                  <div class="form-group">
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="c_email"
+                      name="email"
+                      placeholder="EMAIL..."
+                      required
+                    />
+                  </div>
+                </div>
+              </div>
+              <!-- 5ª fila mensaje -->
+              <div class="row">
+                <div class="col">
+                  <div class="form-group">
+                    <textarea
+                      class="form-control"
+                      id="mensaje"
+                      name="mensaje"
+                      placeholder="MENSAJE..."
+                      rows="1"
+                    ></textarea>
+                  </div>
+                </div>
+              </div>
+              <!-- 6ª fila switch para recibir boletin -->
+              <div class="row">
+                <div class="col-12 col-md-6">
+                  <div class="form-group">
+                    <div class="custom-control custom-switch">
+                      <input
+                        type="checkbox"
+                        class="custom-control-input"
+                        id="newsletter"
+                        name="newsletter"
+                        checked
+                      />
+                      <label class="custom-control-label" for="newsletter"
+                        >Quiero recibir el boletín</label
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+    
+              <input type="text" name="_gotcha" style="display:none">
+              <button type="submit" class="btn btn-enviar">ENVIAR</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+
+        
+  
+<!-- FIN FORM CONTACTO  -->
+        </main>
+
+        <footer>
+            <div class="container-fluid bg-light">
+              <div class="row">
+                <div class="col text-center mt-3 pl-0 pr-0">
+                  <p>
+                    <a id="facebook" href="#"><i class="fab fa-facebook-square"></i></a>
+                    <a id="twitter" href="#"><i class="fab fa-twitter-square"></i></a>
+                    <a id="instagram" href="#"><i class="fab fa-instagram"></i></a>
+                  </p>    
+                </div>
+              </div>
+              <div class="row">
+                <div class="col text-center mt-3 pl-0 pr-0">
+                  <p>
+                    <strong> &#127912; ArteyArtesania.com todos los derechos reservados &copy; 2024.</strong>
+                  </p>
+                  <p>
+                    Desarrollado por Carolina Sosa
+                  </p>
+                </div>
+              </div>
+            </div>
+          </footer>
+      
+  </body>   
+</html> 
