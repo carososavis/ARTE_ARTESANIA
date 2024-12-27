@@ -187,3 +187,22 @@ img.modalPintura {
   }
 }
     
+.carrito-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 5px 0;
+  border-bottom: 1px solid #ccc;
+}
+.carrito-item button {
+  font-size: 12px;
+  padding: 5px;
+}
+.carrito-toggle {
+  transition: background-color 0.3s ease;
+}
+
+.carrito-toggle:hover {
+  background-color: #f0f0f0;
+}
